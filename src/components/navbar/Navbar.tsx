@@ -1,6 +1,7 @@
 const Navbar = () => {
   return ( 
-    <div className=" flex justify-center items-center px-4 mx-auto h-24 top-0 min-w-full  gap-[15%]"> 
+    <div className=" flex justify-center items-center px-4 mx-auto h-24 top-0 min-w-full"> 
+    
       <div className="flex gap-3">
       <svg xmlns="http://www.w3.org/2000/svg" width="35" height="24" viewBox="0 0 35 24" fill="none">
   <path d="M18.7863 13.134L13.3954 22.3669L8.00448 13.134H18.7863ZM20.2305 12.3088H6.55444L13.3954 24L20.2305 12.3088Z" fill="#263238"/>
@@ -21,14 +22,16 @@ const Navbar = () => {
 </svg>
 </div>
 
-<div>
-  <ul className=" flex gap-3">
+<div className="pl-[40%] w-[70%]  ">
+  <ul className=" flex gap-[5%] items-center  h-[50px]">
     <li>Home</li>
     <li>Features</li>
     <li>Community</li>
     <li>Pricing</li>
     <li>
-      <button>Register Now  </button>
+     <button className="flex bg-[#4CAF4F] text-white justify-center w-[30] items-center gap-2 h-[100%]" >register now <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
+  <path d="M6.52563 5.47021L8.24474 3.75111C8.44862 3.54723 8.44862 3.21667 8.24474 3.0128L6.52563 1.29369M8.09183 3.38195L0.434875 3.38195" stroke="white" stroke-width="0.765676" stroke-linecap="round"/>
+</svg></button>
     </li>
   </ul>
 </div>
