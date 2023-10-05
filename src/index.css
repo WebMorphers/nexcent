@@ -16,4 +16,19 @@ body{
   }
  
    
- 
+.card{
+  @apply rounded shadow flex-col items-center text-center mx-16 my-6 py-6
+}
+
+.card-title{
+  @apply text-grey-40 text-2xl font-bold my-2
+}
+.card-description{
+  @apply text-grey-30  text-sm
+}
+.card-img{ 
+ @apply  align-middle flex justify-center
+}
+.card-content{
+  @apply mx-6
+}

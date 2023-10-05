@@ -9,10 +9,8 @@ function App() {
 
   return (
     <> 
-        <MNavbar />  
         <Hero /> 
         <Clients />
-        <Unlock />
     </>
   )
 }
