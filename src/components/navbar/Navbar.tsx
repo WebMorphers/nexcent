@@ -1,6 +1,6 @@
 const Navbar = () => {
   return ( 
-    <div className=" flex justify-center items-center    px-4 mx-auto h-24 top-0 min-w-full fixed  gap-[15%]"> 
+    <div className=" flex justify-center items-center px-4 mx-auto h-24 top-0 min-w-full  gap-[15%]"> 
       <div className="flex gap-3">
       <svg xmlns="http://www.w3.org/2000/svg" width="35" height="24" viewBox="0 0 35 24" fill="none">
   <path d="M18.7863 13.134L13.3954 22.3669L8.00448 13.134H18.7863ZM20.2305 12.3088H6.55444L13.3954 24L20.2305 12.3088Z" fill="#263238"/>
