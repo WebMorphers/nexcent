@@ -4,19 +4,19 @@ import HeroImg from './HeroImg/HeroImg'
 const Hero = () => {
   return (
     <div className='bg-silver'>
-        <div className='flex justify-between items-center py-16 px-28'>
-            <div className='flex-initial'>
+        <div className='flex justify-between items-center py-16 px-28 flex-wrap	'>
+            <div className='flex-none max-sm:flex-1'>
                 <div className='flex-col items-start flex gap-5	'>
-                    <div className=''>
-                        <div className='text-5xl flex-1'>
+                    <div className='flex-col gap-2'>
+                        <div className='text-5xl flex-1 py-3 self-stretch line leading-tight'>
                             <h1 className='text-grey-40 font-normal font-inter'>Lesson and insights <br /> <span className='text-green-60'>from 8 years</span></h1>
                         </div>
-                        <p className='flex-1'>Where to grow your business as a photographer: site or social media?</p>
+                        <p className='flex-1 text-xs text-grey-30'>Where to grow your business as a photographer: site or social media?</p>
                     </div>
-                    <button className='flex-none py-2 px-3 bg-[#4CAF4F] rounded-sm'>Register</button>
+                    <button className='flex-none py-2 px-5 bg-[#4CAF4F] rounded-sm text text-white text-xs'>Register</button>
                 </div>
             </div>
-            <div>
+            <div className='flex-none'>
                 <HeroImg />
             </div>
         </div>

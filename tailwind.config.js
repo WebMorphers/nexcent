@@ -30,6 +30,9 @@ export default {
         "primary" : "#28CB8B",
         "secondary" : "#263238",
         "info" : "#2194f3",
+      },
+      fontFamily:{
+        'Inter' : ['inter', 'sans-serif']
       }
     },
   },
