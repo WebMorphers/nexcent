@@ -1,11 +1,10 @@
-import React from 'react'
 import HeroImg from './HeroImg/HeroImg'
 
 const Hero = () => {
   return (
     <div className='bg-silver'>
-        <div className='flex justify-between items-center py-16 px-28 flex-wrap	'>
-            <div className='flex-none max-sm:flex-1'>
+        <div className='flex justify-between py-16 px-28 max-sm:px-2  max-md:px-5 flex-wrap items-center	'>
+            <div className='flex-none max-sm:flex-1 md:flex-1 items-center'>
                 <div className='flex-col items-start flex gap-5	'>
                     <div className='flex-col gap-2'>
                         <div className='text-5xl flex-1 py-3 self-stretch line leading-tight'>
