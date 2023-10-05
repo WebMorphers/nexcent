@@ -2,8 +2,8 @@
 
 const unlock = () => {
   return (
-    <div className='flex '>
-        <img src={img}  alt="img" className='h-auto w-auto' />
+    <div className='flex justify-center items-center h-96'>
+        <img src={img}  alt="img" className='h-96' />
         <div className=' '>
             <h1 className='text-2xl'>The unseen of spending three years at Pixelgrade</h1>
 
