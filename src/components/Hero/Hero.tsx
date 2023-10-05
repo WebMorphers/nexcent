@@ -4,7 +4,7 @@ import HeroImg from './HeroImg/HeroImg'
 const Hero = () => {
   return (
     <div className='bg-silver'>
-        <div className='flex justify-between items-stretch py-16 px-28'>
+        <div className='flex justify-between items-center py-16 px-28'>
             <div className='flex-initial'>
                 <div className='flex-col items-start flex gap-5	'>
                     <div className=''>
