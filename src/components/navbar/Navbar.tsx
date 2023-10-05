@@ -29,7 +29,7 @@ const Navbar = () => {
     <li>Community</li>
     <li>Pricing</li>
     <li>
-     <button className="flex bg-[#4CAF4F] text-white justify-center w-[30] items-center gap-2 h-[100%]" >register now <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
+     <button className="flex bg-[#4CAF4F] text-white justify-center w-[30] items-center gap-2 h-[100%] borde" >register now <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
   <path d="M6.52563 5.47021L8.24474 3.75111C8.44862 3.54723 8.44862 3.21667 8.24474 3.0128L6.52563 1.29369M8.09183 3.38195L0.434875 3.38195" stroke="white" stroke-width="0.765676" stroke-linecap="round"/>
 </svg></button>
     </li>
