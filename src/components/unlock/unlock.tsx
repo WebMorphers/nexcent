@@ -2,7 +2,7 @@
 
 const unlock = () => {
   return (
-    <div className='grid lg:grid-cols-2 gap-6 items-center mt-8 p-3 sm:px-16 lg:px-28 w-[100%] max-md:flex-col mx-23 '>
+    <div className='grid lg:grid-cols-2 gap-6 items-center mt-8 p-3 px-6 lg:px-28 w-[100%] max-md:flex-col mx-23 '>
         <img src={img}  alt="img" className='p-9' />
          <div className='flex-col items-center '>
 

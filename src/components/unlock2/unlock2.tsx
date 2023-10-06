@@ -1,13 +1,13 @@
-import React from 'react';
 import img from  '../../resources/im2.png'
 
-const Unlock2 = () => {
-    return (
-        <div className='flex justify-center items-center h-96 mt-8 p-3 w-[100%] gap-[15%] max-md:flex-col'>
-        <img src={img}  alt="img" className='h-[100%] max-md:h-[70%]'/>
-         <div className='flex-col w-[30%] h-full justify-between items-center max-md:w-[60%]'>
 
-            <h1 className='text-3xl w-[100%] mb-[10%]   '>The unseen of spending three years at Pixelgrade</h1>
+const Unlock2 = () => {
+  return (
+    <div className='grid lg:grid-cols-2 gap-6 items-center mt-8 p-3 px-6 lg:px-28 w-[100%] max-md:flex-col mx-23 '>
+        <img src={img}  alt="img" className='p-9' />
+         <div className='flex-col items-center '>
+
+            <h1 className='text-3xl w-[100%] mb-[10%] text-grey-40 font-semibold  '>How to design your site footer like we did</h1>
 
             <p className='w-[100%] text-[#717171] mb-[10%] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. 
                 Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta.
@@ -21,7 +21,7 @@ const Unlock2 = () => {
          </div>
 
     </div>
-    );
-};
+  )
+}
 
 export default Unlock2;

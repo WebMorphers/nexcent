@@ -15,9 +15,8 @@ function App() {
     <MNavbar />
         <Hero /> 
         <Clients />
-        <Achievements />
         <Unlock />
-
+        <Achievements />
         <Unlock2 />
 
     </>
