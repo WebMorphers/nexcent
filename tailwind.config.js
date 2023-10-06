@@ -15,7 +15,7 @@ export default {
         'lg': '1170px',
         // => @media (min-width: 1024px) { ... }
   
-        'xl': '1280px',
+        'xl': '1328px',
         // => @media (min-width: 1280px) { ... }
   
         '2xl': '1536px',

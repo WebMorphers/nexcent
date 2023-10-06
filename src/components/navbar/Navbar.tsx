@@ -51,9 +51,9 @@ const Navbar = () => {
 </svg>
 </div>
 
-<div className="pl-[40%] w-[70%] ">
-  <ul className=" flex gap-[5%] items-center  h-[50px] max-md:hidden">
-    <li>Home</li>
+<div className="pl-[40%] max-lg:pl-[2%] w-[70%] ">
+  <ul className=" flex gap-[5%] items-center h-[50px] max-md:hidden ">
+    <li>Home</li> 
     <li>Features</li>
     <li>Community</li>
     <li>Pricing</li>
