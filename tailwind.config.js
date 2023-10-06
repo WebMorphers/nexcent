@@ -5,6 +5,22 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
     theme: {
+      screens: {
+        'sm': '350px',
+        // => @media (min-width: 640px) { ... }
+  
+        'md': '641px',
+        // => @media (min-width: 768px) { ... }
+  
+        'lg': '1170px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'xl': '1280px',
+        // => @media (min-width: 1280px) { ... }
+  
+        '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... }
+      },
     extend: {
       colors: {
         "black": "#263238",

@@ -1,4 +1,33 @@
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+
+import {useEffect,useState}  from "react";
 const Navbar = () => {
+
+  const [nav, setnav] = useState(false);
+  function chang() {
+    setnav(!nav);
+  }
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
+  useEffect(() => {
+    const internalLinks = document.querySelectorAll('a[href^="#"]');
+    internalLinks.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute("href")?.slice(1);
+        if (targetId) {
+          scrollToSection(targetId);
+        }
+      });
+    });
+  }, []);
   return ( 
     <div className=" flex justify-center items-center px-4 mx-auto h-24 top-0 min-w-full"> 
     
@@ -22,8 +51,8 @@ const Navbar = () => {
 </svg>
 </div>
 
-<div className="pl-[40%] w-[70%]  ">
-  <ul className=" flex gap-[5%] items-center  h-[50px]">
+<div className="pl-[40%] w-[70%] ">
+  <ul className=" flex gap-[5%] items-center  h-[50px] max-md:hidden">
     <li>Home</li>
     <li>Features</li>
     <li>Community</li>
@@ -36,6 +65,7 @@ const Navbar = () => {
 </svg>
  
     </li>
+
   </ul>
 </div>
 </div> 
