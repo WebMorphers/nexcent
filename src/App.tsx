@@ -6,6 +6,8 @@ import Clients from './components/clients/clients'
 import Unlock from './components/unlock/unlock'
 import Achievements from './components/achievements/achievements'
 
+import Unlock2 from './components/unlock2/unlock2'
+
 function App() {
 
   return (
@@ -15,6 +17,8 @@ function App() {
         <Clients />
         <Achievements />
         <Unlock />
+
+        <Unlock2 />
 
     </>
   )
