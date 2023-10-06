@@ -3,7 +3,7 @@
 const unlock = () => {
   return (
     <div className='grid lg:grid-cols-2 gap-6 items-center mt-8 p-3 sm:px-16 lg:px-28 w-[100%] max-md:flex-col mx-23 '>
-        <img src={img}  alt="img" className='p-9' />
+        <img src={img}  alt="img" className='p-16 ' />
          <div className='flex-col items-center '>
 
             <h1 className='text-3xl w-[100%] mb-[10%]   '>The unseen of spending three years at Pixelgrade</h1>
