@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className='bg-silver'>
         <div className='flex justify-between py-16 lg:px-28 px-6 flex-wrap items-center	'>
-            <div className='flex-none max-sm:flex-1 md:flex-1 items-center'>
+            <div className='flex-none max-sm:flex-1 md:flex-1 items-center shrink'>
                 <div className='flex-col items-start flex gap-5	'>
                     <div className='flex-col gap-2'>
                         <div className='text-5xl flex-1 py-3 self-stretch line leading-tight'>
