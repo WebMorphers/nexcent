@@ -1,4 +1,3 @@
-import Card from './cardd';
 import img1 from '../../resources/com.png';
 import img2 from '../../resources/comm2.png';
 import img3 from '../../resources/comm3.png';
@@ -6,7 +5,7 @@ import img3 from '../../resources/comm3.png';
 const community = () => {
   return (
     <div className='lg:px-28 px-6'>
-    <div className='flex flex-col justify-center items-center text-center px-0 px-[25%]'>  
+    <div className='flex flex-col justify-center items-center text-center px-0 lg:px-[25%] md:px-[15%]'>  
       <h1 className='text-[#4D4D4D] font-bold mt-9'>Caring is the new marketing</h1>
       <p className='text-[#717171] mt-3'>
         The Nextcent blog is the best place to read about the latest membership insights,
