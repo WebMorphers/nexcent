@@ -3,9 +3,9 @@ import img from  '../../resources/im2.png'
 
 const Unlock2 = () => {
   return (
-    <div className='grid lg:grid-cols-2 gap-6 items-center mt-8 p-3 sm:px-16 lg:px-28 w-[100%] max-md:flex-col mx-23 '>
-        <img src={img}  alt="img" className='p-16     ' />
-         <div className='flex-col items-center '>
+    <div className='grid lg:grid-cols-3 gap-6 items-center justify-center  p-3 sm:px-16 lg:px-28 w-[100%]  mx-23 '>
+        <img src={img}  alt="img" className='' />
+         <div className='flex-col items-center lg:col-span-2'>
 
             <h1 className='text-3xl w-[100%] mb-[10%] text-grey-40 font-semibold  '>How to design your site footer like we did</h1>
 
