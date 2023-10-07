@@ -18,7 +18,7 @@ const customers = () => {
           <h1 className='font-bold text-[#4CAF4F] '>Tim Smith</h1>
           <p className='text-[#89939E] '>British Dragon Boat Racing Association </p>
             
-            <div className='flex-row flex items-center mt-[3%] flex-wrap  gap-1  max-md:flex-col'>
+            <div className='flex-row flex items-center mt-[3%] flex-wrap  gap-16  max-md:flex-col'>
 
 <div className='flex-row flex items-center gap-14'>
             
@@ -102,15 +102,14 @@ const customers = () => {
     </clipPath>
   </defs>
 </svg></div>
-</div>
+
 </div>
 
                 <div className='flex-row flex items-center font-bold text-[#4CAF4F]'><h1 className='mr-2'>Meet all customers </h1>
                  <div><svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 12 7" fill="none">
   <path d="M8.7139 6.40925L11.006 4.11717C11.2778 3.84534 11.2778 3.40461 11.006 3.13278L8.7139 0.840698M10.8021 3.62498L1.05713 3.62498" stroke="#4CAF4F" stroke-width="1.0441" stroke-linecap="round"/>
 </svg></div></div>
-
-                
+</div>  
             </div>
 
      </div>
