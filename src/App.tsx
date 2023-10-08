@@ -23,7 +23,11 @@ function App() {
         <Unlock2 />
         <Customers />
         <Community />
+<<<<<<< Updated upstream
+        <Frame />
+=======
         <Frame16 />
+>>>>>>> Stashed changes
         <Footer />
         
     </>
