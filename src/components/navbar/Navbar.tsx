@@ -79,7 +79,7 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? " fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-amber-700 ease-in-out duration-500"
+            ? " fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-green-40 ease-in-out duration-500"
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
@@ -106,7 +106,7 @@ const Navbar = () => {
         </a>
         <li className="p-4 ">
           <a
-            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
+            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-grey-40"
             onClick={() => scrollToSection("Home")}
             href="#Home"
           >
@@ -115,7 +115,7 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <a
-            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
+            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-grey-40 "
             onClick={() => scrollToSection("Features")}
             href="#Features"
           >
@@ -125,7 +125,7 @@ const Navbar = () => {
         <li className="p-4">
           {" "}
           <a
-            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
+            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-grey-40 "
             onClick={() => scrollToSection("Community")}
             href="#Community"
           >
@@ -135,7 +135,7 @@ const Navbar = () => {
         <li className="p-4">
           {" "}
           <a
-            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
+            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-grey-40 "
             onClick={() => scrollToSection("Pricing")}
             href="#Pricing"
           >
