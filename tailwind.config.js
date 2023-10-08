@@ -11,7 +11,10 @@ export default {
   
         'md': '641px',
         // => @media (min-width: 768px) { ... }
-  
+
+        'mdd': '911px',
+        // => @media (min-width: 768px) { ... }
+
         'lg': '1170px',
         // => @media (min-width: 1024px) { ... }
   
