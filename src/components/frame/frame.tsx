@@ -1,10 +1,10 @@
 
 const frame = () => {
   return (
-    <div className='flex flex-col text-6xl max-mdd:text-4xl  text-[#263238] items-center justify-center p-24'>
-        <div className='flex flex-col items-center justify-center p-16 ' > 
-        <h1 >Pellentesque suscipit  </h1>
-         <h1> fringilla libero eu.</h1>
+    <div className='flex flex-col text-6xl max-sm:text-xl   max-mdd:text-2xl  text-[#263238] items-center justify-center p-24'>
+        <div className='flex flex-col items-center justify-center pb-14   ' > 
+        <h1 className="sm:min-w-[225px]  " >Pellentesque suscipit  </h1>
+         <h1 className="sm:min-w-[200px]  "> fringilla libero eu.</h1>
           </div>
         <svg width="125" height="37" viewBox="0 0 125 37" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.0429688" y="0.41687" width="124.254" height="36.4899" rx="2.78428" fill="#4CAF4F"/>
