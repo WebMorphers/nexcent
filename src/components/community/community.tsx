@@ -16,7 +16,7 @@ const community = () => {
       <div className='grid grid-cols-1 md:grid-cols-3 gap-5 gap-y-24  mt-3'>
       <div className='relative flex flex-row justify-center '>
           <img src={img1} alt="img1" className='z-1  h-auto' />
-          <div className='z-2 absolute left-[10%] top-[70%] p-2 2xl:top-[90%]   bg-silver rounded-lg shadow-2xl '>
+          <div className='z-2 absolute left-[10%] top-[70%] p-2 2xl:top-[90%]  w-[80%]  bg-silver rounded-lg shadow-2xl '>
             <div className='py-1'>
               <div className='flex flex-col gap-3'>
                 <div className='text-center text-grey-30 font-semibold leading-[140%]'>

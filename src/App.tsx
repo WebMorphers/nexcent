@@ -6,7 +6,6 @@ import Clients from './components/clients/clients'
 import Unlock from './components/unlock/unlock'
 import Achievements from './components/achievements/achievements'
 import Footer from './components/footer/footer'
-
 import Unlock2 from './components/unlock2/unlock2' 
 import  Customers from './components/customers/customers'
 import  Community from './components/community/community'
