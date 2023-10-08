@@ -34,9 +34,9 @@ const community = () => {
         </div>
         <div className='relative flex flex-row justify-center '>
           <img src={img2} alt="img2" className='z-1  h-auto' />
-          <div className='z-2 absolute left-[10%] right-[10%] top-[70%] w-[80%] p-2 bg-silver rounded-lg shadow-2xl '>
+          <div className='z-2 absolute left-[10%] right-[10%] top-[70%] p-2 bg-silver rounded-lg shadow-2xl '>
             <div className='py-1'>
-              <div className='flex flex-col gap-3 '>
+              <div className='flex flex-col gap-3'>
                 <div className='text-center text-grey-30 font-semibold leading-[140%]'>
                   <h1>What are your safeguarding responsibilities and how can you manage them?</h1>
                 </div> 
@@ -56,7 +56,7 @@ const community = () => {
             <div className='py-1'>
               <div className='flex flex-col gap-3'>
                 <div className='text-center text-grey-30 font-semibold leading-[140%]'>
-                  <h1>Revamping the Membership Model with Triathlon Australia</h1>
+                  <h1>Revamping the Membership Model with Triathlon Australia </h1>
                 </div> 
                 <div className="pt-0 flex flex-row justify-center items-center">
                 <button className="text-[#4CAF4F] text-l bg-[#F5F7FA] font-semibold">ReadMore</button>
@@ -67,10 +67,9 @@ const community = () => {
               </div>
             </div>
           </div>
-        </div>          
         </div>
-        </div>
-
+      </div>          
+    </div>
   );
 }
 
