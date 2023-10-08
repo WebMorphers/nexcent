@@ -9,11 +9,7 @@ import Footer from './components/footer/footer'
 import Unlock2 from './components/unlock2/unlock2' 
 import  Customers from './components/customers/customers'
 import  Community from './components/community/community'
-<<<<<<< Updated upstream
-import Frame from './components/frame/frame'
-=======
 import  Frame16 from './components/frame16/frame16'
->>>>>>> Stashed changes
 
 function App() {
 
@@ -27,11 +23,7 @@ function App() {
         <Unlock2 />
         <Customers />
         <Community />
-<<<<<<< Updated upstream
-        <Frame />
-=======
         <Frame16 />
->>>>>>> Stashed changes
         <Footer />
         
     </>
