@@ -53,10 +53,10 @@ const Navbar = () => {
 
 <div className="pl-[40%] max-lg:pl-[2%] w-[70%] ">
   <ul className=" flex gap-[5%] items-center h-[50px] max-md:hidden ">
-    <li>Home</li> 
-    <li>Features</li>
-    <li>Community</li>
-    <li>Pricing</li>
+    <li> <a href="">Home</a></li> 
+    <li><a href="">Features</a></li>
+    <li><a href="">Community</a></li>
+    <li><a href=""> Pricing</a></li>
     <li className="cursor-pointer">
 <svg width="135" height="37" viewBox="0 0 135 37" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.851929" y="0.137207" width="133.254" height="36.4899" rx="2.78428" fill="#4CAF4F"/>
@@ -107,29 +107,39 @@ const Navbar = () => {
         <li className="p-4 ">
           <a
             className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600"
-            onClick={() => scrollToSection("about_us")}
-            href="#about_us"
+            onClick={() => scrollToSection("Home")}
+            href="#Home"
           >
-            ABOUT US
+            Home
           </a>
         </li>
         <li className="p-4">
           <a
             className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
-            onClick={() => scrollToSection("projects")}
-            href="#projects"
+            onClick={() => scrollToSection("Features")}
+            href="#Features"
           >
-            OUR PROJECTS
+            Features
           </a>
         </li>
         <li className="p-4">
           {" "}
           <a
             className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
-            onClick={() => scrollToSection("contact")}
-            href="#contact"
+            onClick={() => scrollToSection("Community")}
+            href="#Community"
           >
-            CONTACT US
+            Community
+          </a>
+        </li>
+        <li className="p-4">
+          {" "}
+          <a
+            className="no-underline mx-4 cursor-pointer font-thin text-white hover:text-orange-600 "
+            onClick={() => scrollToSection("Pricing")}
+            href="#Pricing"
+          >
+            Pricing
           </a>
         </li>
       </ul>
