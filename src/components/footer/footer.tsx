@@ -57,7 +57,7 @@ const footer = () => {
                 </div>
                 <div className="flex flex-col gap-4">
                     <h1 className="text-[#FFF] font-semibold text-xl">Stay up to date</h1>
-                    <div className="relative">
+                    <div className="relative w-min">
                         <input type="email" placeholder="Your email adress" className=" text-white bg-grey-20 z-1 p-2 rounded-lg placeholder:text-white placeholder:text-sm placeholder:font-light"/>
                         <div className="absolute h-full right-2 top-0 flex items-center">
                             <svg className="" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
