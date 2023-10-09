@@ -1,7 +1,7 @@
 
 const frame = () => {
   return (
-    <div className='flex flex-col text-6xl max-sm:text-xl   max-mdd:text-2xl  text-[#263238] items-center justify-center px-8 py-10 bg-silver'>
+    <div className='flex flex-col text-6xl max-sm:text-xl   max-mdd:text-2xl font-semibold   text-[#263238] items-center justify-center px-8 py-10 bg-silver'>
         <div className='flex flex-col items-center justify-center pb-14   ' > 
         <h1 className="sm:min-w-[225px]  " >Pellentesque suscipit  </h1>
          <h1 className="sm:min-w-[200px]  "> fringilla libero eu.</h1>
