@@ -38,21 +38,21 @@ const footer = () => {
                 <div className="flex flex-col gap-4 mt-5 lg:mt-0">
                     <h1 className="text-[#FFF] font-semibold text-xl">Company</h1>
                     <div className="flex flex-col gap-1">
-                        <span className="text-sm font-normal ">About us</span>
-                        <span className="text-sm font-normal">Blog</span>
-                        <span className="text-sm font-normal">Contact us</span>
-                        <span className="text-sm font-normal">Pricing</span>
-                        <span className="text-sm font-normal">Testimonials</span>
+                        <span className="text-sm font-normal "> <a href="">About us</a></span>
+                        <span className="text-sm font-normal"> <a href="">Blog</a></span>
+                        <span className="text-sm font-normal"> <a href="">Contact us</a></span>
+                        <span className="text-sm font-normal">  <a href="">Pricing</a></span>
+                        <span className="text-sm font-normal"> <a href="">Testimonials</a></span>
                     </div>
                 </div>
                 <div className="flex flex-col gap-4 mt-5 lg:mt-0">
                     <h1 className="text-[#FFF] font-semibold text-xl">Support</h1>
                     <div className="flex flex-col flex-shrink-0 gap-1">
-                        <span className="text-sm font-normal">Help center</span>
-                        <span className="text-sm font-normal">Terms of service</span>
-                        <span className="text-sm font-normal">Legal</span>
-                        <span className="text-sm font-normal">Privacy policy</span>
-                        <span className="text-sm font-normal">Status</span>
+                        <span className="text-sm font-normal"> <a href="">Help center</a></span>
+                        <span className="text-sm font-normal"> <a href="">Terms of service</a></span>
+                        <span className="text-sm font-normal"> <a href="">Legal</a></span>
+                        <span className="text-sm font-normal"> <a href="">Privacy policy</a></span>
+                        <span className="text-sm font-normal"><a href="">Status </a></span>
                     </div>
                 </div>
                 <div className="flex flex-col gap-4 mt-5 lg:mt-0">
