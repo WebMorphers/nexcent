@@ -34,8 +34,8 @@ const footer = () => {
                     </svg>
                 </div>
             </div>
-            <div className="lg:flex md:flex justify-between gap-16">
-                <div className="flex flex-col gap-4 ">
+            <div className="lg:flex md:flex justify-between gap-16 mt-5 lg:mt-0">
+                <div className="flex flex-col gap-4 mt-5 lg:mt-0">
                     <h1 className="text-[#FFF] font-semibold text-xl">Company</h1>
                     <div className="flex flex-col gap-1">
                         <span className="text-sm font-normal ">About us</span>
@@ -45,7 +45,7 @@ const footer = () => {
                         <span className="text-sm font-normal">Testimonials</span>
                     </div>
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 mt-5 lg:mt-0">
                     <h1 className="text-[#FFF] font-semibold text-xl">Support</h1>
                     <div className="flex flex-col flex-shrink-0 gap-1">
                         <span className="text-sm font-normal">Help center</span>
@@ -55,7 +55,7 @@ const footer = () => {
                         <span className="text-sm font-normal">Status</span>
                     </div>
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 mt-5 lg:mt-0">
                     <h1 className="text-[#FFF] font-semibold text-xl">Stay up to date</h1>
                     <div className="relative w-min">
                         <input type="email" placeholder="Your email adress" className=" text-white bg-grey-20 z-1 p-2 rounded-lg placeholder:text-white placeholder:text-sm placeholder:font-light"/>
